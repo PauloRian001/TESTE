@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Restaurante Italia</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header id="cabecalho">
+		<figure>
+			<img id="logo" src="imagens/logo2.png">
+		</figure>
+		<nav id="menu">
+				<a href="index.html">Home</a>
+				<a href="cardapio.html">Cardapio</a>
+				<a href="reserva.html">Reserva</a>
+		</nav>
+	</header>
+
+	<main id="reserva">
+		
+		<section id="reserva2">
+			<h2>Faça sua reserva</h2>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="user_name">
+				<label for="email">Contato</label>
+				<input type="text" id="email" name="email">
+				<label for="contato">Quantidade de pessoas</label>
+				<input type="number" id="contato" name="numero" min="1">
+				<label for="data">Data e Horário</label>
+				<input type="datetime-local" id="data" name="data"><br>
+				<input class="submit" type="submit" valuer="Enviar">
+			</form>
+
+		</section>
+
+		<div id="contato">
+				<h3>Nosso endereço:</h3>
+				Rua dos Anos, 1254<br>
+				Centro, Santa Inês<br>
+
+				Nosso Contato: 12 45485-52365
+		</div>	
+
+
+	</main>
+
+	<footer id="rodape">
+			Todos os Direitos Reservados
+	</footer>
+
+</body>
+</html>
